@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(343deg, #764747, #00000017);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+  }
+  
+  /* Style the add-task section */
+  .add-task {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #task-input {
+    padding: 10px;
+    width: 300px;
+    /* margin-right: 10px; */
+    border-right: 5px;
+    margin-right: 22px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(65 225 255 / 13%);
+    color: black;
+}
+  
+  #priority-select {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    background-color: aqua;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 71px;
+    background-color: aqua;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  /* Style the task-list section */
+  .task-list {
+    padding: 20px;
+  }
+  
+  .task-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    /* background-color: #fff; */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-right: 5px;
+    margin-right: 22px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(65 225 255 / 13%);
+    color: black;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+
+  }
+  li span :active{
+    flex-grow: 1;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-decoration: line-through;
+
+  }
+  
+  li button {
+    padding: 5px 10px;
+    /* padding: 10px 20px; */
+    border-radius: 71px;
+    background-color: aqua;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  /* Set different colors for different task priorities */
+  li.low {
+    background-color: #e2f0cb;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+  }
+  
+  li.medium {
+    background-color: #f9f7b7;
+  }
+  
+  li.high {
+    background-color: #f7c6c5;
+  }
+  
+  
